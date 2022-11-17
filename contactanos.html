@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="no-js" prefix="og: https://ogp.me/ns#" lang="es">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Nombre de nuestro proyecto</title>
+		<link href="css/estilo.css" rel="stylesheet">
+		<link href="css/formulario.css" rel="stylesheet">
+	</head>
+<body>
+	<main>
+		<section class="seccion-home">
+		<nav class="nav-home">
+			<ul class="contenedor-lista">
+				<li>
+					<a class="item" href="index.html">
+						<span class="texto-item">Pagina Principal</span>
+					</a>
+				</li><li>
+					<a class="item" href="manuales.html">
+						<span class="texto-item">Componentes y Manuales</span>
+					</a>
+				</li><li>
+					<a class="item" href="sobre-nosotros.html">
+						<span class="texto-item">Sobre nosotros</span>
+					</a>
+				</li><li>
+					<a class="item" href="acceso_arduino.html">
+						<span class="texto-item">Acceso a Interfaz</span>
+					</a>
+				</li><li>
+					<a class="item" href="contactanos.html">
+						<span class="texto-item">Contáctanos</span>
+					</a>
+				</li>
+			</ul>
+		</nav>		
+	</section>
+</main>
+<h1>Contáctanos</h1>
+
+
+
+
+
+
+
+</body>
+	<div class="antes-form">
+		<p>Aquí comienza tu texto. Puedes hacer clic en este punto y empezar a escribir.</p>
+		<p> </p>
+	</div>
+	<div>
+		<p><strong>Email</strong>
+			<br />
+			email_ejemplo@email.com
+		</p>
+		<p><strong>En las redes</strong>
+			<br />
+			@cuenta_de_Twitter
+			<br />
+			Cuenta_de_Facebook
+		</p>
+		<p><strong>Teléfono</strong>
+			<br />
+			(+34)&nbsp;947&nbsp;002&nbsp;963
+		</p>
+	</div>
+	<div>
+		<!--Corregir el envio de formulario -->
+		<form action="form/recibidos.php" method="post">
+			<fieldset>
+				<div>
+					<div>
+						<input id="nombre" name="nombre" type="text" maxlength="100" placeholder="Nombre" required>
+							<label for="nombre">
+								<span class="texto-label">Nombre</span>
+							</label>
+					</div>
+					<div>
+						<input id="telefono" name="telefono" type="tel" maxlength="100" placeholder="+541146487245" required>
+							<label for="telefono">
+								<span class="texto-label">Teléfono</span>
+							</label>
+					</div>
+					<div>
+						<input spellcheck="false" id="email" name="email" type="email" maxlength="60" placeholder="ejemplo@email.com" required>
+							<label for="email">
+								<span class="texto-label">Email</span>
+						</label>
+					</div>
+					<div>
+						<div>
+							<textarea rows="2" id="mensaje" name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+								<label for="mensaje">
+									<span class="texto-label">Mensaje</span>
+								</label>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+				<div class="caja-boton">
+					<button class="boton" type="submit" name="enviar" value="Enviar">
+						<span class="texto-label">Enviar</span>
+					</button>
+				</div>
+		</form>
+	</div>
+	<footer>
+		<p>©&nbsp;2022&nbsp;Todos los derechos reservados</p>
+	</footer>
+</body>
+</html>
