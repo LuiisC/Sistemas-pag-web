@@ -38,76 +38,68 @@
 	</section>
 </main>
 <h1>Contáctanos</h1>
-
-
-
-
-
-
-
-</body>
-	<div class="antes-form">
-		<p>Aquí comienza tu texto. Puedes hacer clic en este punto y empezar a escribir.</p>
+<div>
+	<p class="antes-form">Por cualquier consulta sobre nuestros productos y/o servicios dejamos a disposicion nuestros datos.</p>
 		<p> </p>
-	</div>
-	<div>
-		<p><strong>Email</strong>
-			<br />
-			email_ejemplo@email.com
-		</p>
-		<p><strong>En las redes</strong>
+</div>
+<div class="datos-contacto">
+	<p><strong>Email</strong>
+		<br />
+		email_ejemplo@email.com
+	</p>
+	<p><strong>En las redes</strong>
 			<br />
 			@cuenta_de_Twitter
 			<br />
 			Cuenta_de_Facebook
-		</p>
-		<p><strong>Teléfono</strong>
+	</p>
+	<p><strong>Teléfono</strong>
 			<br />
 			(+34)&nbsp;947&nbsp;002&nbsp;963
-		</p>
-	</div>
-	<div>
+	</p>
+</div>
+<div>
 		<!--Corregir el envio de formulario -->
-		<form action="form/recibidos.php" method="post">
-			<fieldset>
+	<form action="form/recibidos.php" method="post">
+		<fieldset>
+			<div>
+				<div>
+					<input id="nombre" name="nombre" type="text" maxlength="100" placeholder="Nombre" required>
+						<label for="nombre">
+							<span class="texto-label">Nombre</span>
+						</label>
+				</div>
+				<div>
+					<input id="telefono" name="telefono" type="tel" maxlength="100" placeholder="+541146487245" required>
+						<label for="telefono">
+							<span class="texto-label">Teléfono</span>
+						</label>
+				</div>
+				<div>
+					<input spellcheck="false" id="email" name="email" type="email" maxlength="60" placeholder="ejemplo@email.com" required>
+						<label for="email">
+							<span class="texto-label">Email</span>
+					</label>
+				</div>
 				<div>
 					<div>
-						<input id="nombre" name="nombre" type="text" maxlength="100" placeholder="Nombre" required>
-							<label for="nombre">
-								<span class="texto-label">Nombre</span>
+						<textarea rows="2" id="mensaje" name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+							<label for="mensaje">
+								<span class="texto-label">Mensaje</span>
 							</label>
-					</div>
-					<div>
-						<input id="telefono" name="telefono" type="tel" maxlength="100" placeholder="+541146487245" required>
-							<label for="telefono">
-								<span class="texto-label">Teléfono</span>
-							</label>
-					</div>
-					<div>
-						<input spellcheck="false" id="email" name="email" type="email" maxlength="60" placeholder="ejemplo@email.com" required>
-							<label for="email">
-								<span class="texto-label">Email</span>
-						</label>
-					</div>
-					<div>
-						<div>
-							<textarea rows="2" id="mensaje" name="mensaje" placeholder="Escriba su mensaje" required></textarea>
-								<label for="mensaje">
-									<span class="texto-label">Mensaje</span>
-								</label>
-						</div>
 					</div>
 				</div>
-			</fieldset>
 				<div class="caja-boton">
 					<button class="boton" type="submit" name="enviar" value="Enviar">
 						<span class="texto-label">Enviar</span>
 					</button>
 				</div>
-		</form>
-	</div>
-	<footer>
-		<p>©&nbsp;2022&nbsp;Todos los derechos reservados</p>
-	</footer>
+			</div>
+		</fieldset>	
+	</form>
+</div>
+<footer>
+	<p>©&nbsp;2022&nbsp;Todos los derechos reservados</p>
+</footer>
 </body>
 </html>
