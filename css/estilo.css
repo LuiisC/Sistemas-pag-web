@@ -1,0 +1,67 @@
+body {
+    padding: 0%;
+    background-color:rgb(76, 80, 85);
+}
+h1 {
+    color:cornsilk;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+}
+.nav-home {  /*Lista de pestañas*/
+    padding: 0px;
+    background-color: #6d1818;
+    display: flex;
+}
+.texto-bienvenidos {
+    font-size: 3em;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cartel-bienvenida {
+    background-color: gray; /*ELIMINAR CUANDO TENGA UNA IMAGEN DE FONDO*/
+    background-image: url('../images/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.parrafo-empresa {
+    vertical-align: inherit;
+    font-size: 24px;
+}
+
+.contenedor-lista {
+    display: flex;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+}
+.item { /*Modifica la caja de texto */
+    padding: 14px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+.item:hover {
+    background-color: rgb(95, 95, 95);
+    color: #050403;
+}
+
+.video-inicial {
+    padding: 10px;
+    text-align: center;
+}
+.descripcion-principal {
+    background-color: white;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}

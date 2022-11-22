@@ -1,0 +1,24 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 600px auto; /*Dos columnas de ancho automatico*/
+    grid-template-rows: auto auto;
+    background-color: darkgray;
+}
+.item1, .item2, .item3, .item4 {
+    padding: 5px;
+    margin: 5px;
+    border: 1px outset gray;
+}
+.comp-contenedor {
+    width: 200px;
+    background-color: darkgoldenrod;
+}
+.sec-manual {
+    padding: 5px;
+    background-color: aliceblue;
+    width: fit-content;
+}
+.descrip-img p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}

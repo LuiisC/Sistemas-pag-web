@@ -1,0 +1,46 @@
+.antes-form {
+    text-align: left;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+fieldset {
+    width: fit-content;
+    background-color: rgb(173, 173, 177);
+    border: 2px outset black;
+}
+div input {
+    padding: 2px 6px;
+    margin: 8px 0;
+
+}
+.texto-label {
+    padding: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.caja-boton {
+    padding: 10px;
+}
+.datos-contacto {
+    /*width: 220px;*/
+    width: fit-content;
+    border: 2px outset black;
+    background-color: rgb(173, 173, 177);
+    margin: 10px;
+}
+div p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.boton {
+    padding: 5px;
+    font-family: Arial;
+    font-size: 18px;
+}
+.boton:hover {
+    background-color: rgb(37, 28, 160);
+    color: white;
+}
