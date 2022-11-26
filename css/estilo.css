@@ -1,66 +1,93 @@
 body {
-    padding: 0%;
-    background-color:rgb(76, 80, 85);
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
 }
-h1 {
-    color:cornsilk;
+h1 { /*Para los titulos de las secciones*/
+    background-color: white;
+    color:rgb(17, 16, 14);
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
 }
 .nav-home {  /*Lista de pestañas*/
     padding: 0px;
-    background-color: #6d1818;
-    display: flex;
+    background-color: #df6412;
+    display: flex ;
 }
-.texto-bienvenidos {
+header{
+    background-color: rgb(126, 116, 116);
+    padding: 0px;
+    margin: 0px;
+}
+header div span {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
     font-size: 3em;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgba(210, 210, 218);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 .cartel-bienvenida {
-    background-color: gray; /*ELIMINAR CUANDO TENGA UNA IMAGEN DE FONDO*/
-    background-image: url('../images/background1.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    padding-bottom: 1px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 28px;
 }
 .parrafo-empresa {
-    vertical-align: inherit;
     font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
-
 .contenedor-lista {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+li { 
     display: flex;
 }
-li {
-    display: inline;
-    margin-right: 10px;
-}
 .item { /*Modifica la caja de texto */
-    padding: 14px;
-    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+    padding: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 18px;
     text-decoration: none;
 }
 .item:hover {
-    background-color: rgb(95, 95, 95);
-    color: #050403;
+    background-color: rgb(51, 50, 50);
 }
-
-.video-inicial {
-    padding: 10px;
+.contenedor-video {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(82, 201, 26);
+    padding: 0px;
+    
+}
+.contenedor-video video {
+    width: 100%;
+    height:100%;
+}
+.video-descripcion {
+    display: flex;
+    margin: auto;
+}
+.titulo-descripcion {
+    padding-top: 5px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     text-align: center;
 }
-.descripcion-principal {
-    background-color: white;
+#d-proceso {
+    font-size: 16px;
 }
-
 footer {
+    margin-top: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1em;
     text-align: center;
