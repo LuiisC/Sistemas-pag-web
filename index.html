@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre de nuestro proyecto</title>
@@ -8,61 +9,48 @@
 	<link href="css/estilo.css" rel="stylesheet">
 </head>
 <body>
-	<main class="principal">
-		<section class="cartel-bienvenida">
-		<div>
-		  <p class="texto-bienvenidos">
+	<header>
+		<div class="cartel-bienvenida">
 			<span>Bienvenidos&nbsp;</span>
-			<span>
-			  <br>
-			</span>
-			<br>
-		  </p>
-		  <p class="parrafo-empresa">Empresa de servicios de automatización</p>
+			<p class="parrafo-empresa">Empresa de servicios de automatización</p>
 		</div>
-	  </section>
-	<section class="seccion-home">
+	</header>
+	<section>
 		<nav class="nav-home">
 			<ul class="contenedor-lista">
 				<li>
-					<a class="item" href="manuales.html">
-						<span class="texto-item">Componentes y Manuales</span>
-					</a>
-				</li><li>
-					<a class="item" href="sobre-nosotros.html">
-						<span class="texto-item">Sobre nosotros</span>
-					</a>
-				</li><li>
-					<a class="item" href="acceso_arduino.html">
-						<span class="texto-item">Acceso a Interfaz</span>
-					</a>
-				</li><li>
-					<a class="item" href="contactanos.html">
-						<span class="texto-item">Contáctanos</span>
-					</a>
+					<a class="item" href="manuales.html">Componentes y Manuales</a>
+				</li>
+				<li>
+					<a class="item" href="sobre-nosotros.html">Sobre nosotros</a>
+				</li>
+				<li>
+					<a class="item" href="acceso_arduino.html">Acceso a Interfaz</a>
+				</li>
+				<li>
+					<a class="item" href="contactanos.html">Contáctanos</a>
 				</li>
 			</ul>
 		</nav>		
 	</section>
 	<section>
 		<!-- VIDEO LOCAL -->
-		<div class="video-inicial">
-			<video autoplay muted width="640" height="480" controls>
+		<div class="contenedor-video">
+			<video autoplay muted controls>
 				<source src="video/video-ejemplo.mp4" type="video/mp4">
 			</video>
+			<div class="video-descripcion">
+				<div class="titulo-descripcion"><strong>Produccion de combustible</strong>
+					<p id="d-proceso">El producto simula el proceso de transformación de plastico reciclado en combustible mediante pirólisis</p>
+				</div>
+			</div>
 		</div>	
 		<!-- VIDEO DESDE YOUTUBE
 			<iframe width="640" height="480" src="www.youtube....">
 			</iframe>
 		 -->
-		<div class="descripcion-principal">
-			<div class="titulo-imagen">Produccion de combustible
-				<p class="descripcion-proceso">El producto simula el proceso de transformación de plastico reciclado en combustible mediante pirólisis</p>
-			</div>
-		</div>
 	</section>
 
-	</main>
     <footer>
 		<p>©&nbsp;2022&nbsp;Todos los derechos reservados</p>
 	</footer>
