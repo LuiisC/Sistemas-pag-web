@@ -6,49 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre de nuestro proyecto</title>
-    <!--- FUENTE DE SOCIAL-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+    <!--- Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="shortcut icon" href="images/favicon.png" type="images/x-icon">
     <link href="css/estilo.css" rel="stylesheet">
 </head>
 
 <body>
+    <section>
+        <nav class="nav-home">
+            <img src="images/logo.png" alt="Nuestro LOGO" class="nav-brand">
+            <ul class="contenedor-lista">
+                <li>
+                    <a class="item" href="manuales.html">Componentes y Manuales</a>
+                </li>
+                <li>
+                    <a class="item" href="sobre-nosotros.html">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a class="item" href="acceso_arduino.html">Interfaz</a>
+                </li>
+                <li>
+                    <a class="item" href="contactanos.html">Contáctanos</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
     <div class="container">
+        
         <section>
-            <nav class="nav-home">
-                <img src="images/logo.jpg" alt="TechNews LOGO" class="nav-brand">
-                <ul class="contenedor-lista">
-                    <li>
-                        <a class="item" href="manuales.html">Componentes y Manuales</a>
-                    </li>
-                    <li>
-                        <a class="item" href="sobre-nosotros.html">Sobre nosotros</a>
-                    </li>
-                    <li>
-                        <a class="item" href="acceso_arduino.html">Acceso a Interfaz</a>
-                    </li>
-                    <li>
-                        <a class="item" href="contactanos.html">Contáctanos</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-
             <header>
                 <div class="cartel-bienvenida">
                     <span>Bienvenidos&nbsp;</span>
-                    <p class="parrafo-empresa">Empresa de servicios de automatización de procesos industriales</p>
-                    <p>Nuestra empresa se dedica al diseño y construccion de procesos automatizados de tareas industriales para lograr una mayor eficiencia de las labores</p>
+                    <p class="parrafo-empresa">Nuestra empresa se dedica al diseño y construccion de procesos automatizados de tareas industriales para lograr una mayor eficiencia de las labores</p>
                 </div>
             </header>
-
-            <!-- VIDEO LOCAL -->
+        </section>
+     <!-- VIDEO LOCAL -->
             <div class="contenedor-video">
                 <video autoplay muted controls>
 				<source src="images/completo.mp4" type="video/mp4">
-			</video>
+			    </video>
                 <div class="video-descripcion">
                     <div class="titulo-descripcion"><strong>Produccion de combustible</strong>
                         <p id="d-proceso">El producto simula el proceso de transformación de plastico reciclado en combustible mediante pirólisis</p>
@@ -61,13 +59,13 @@
         <section class="social">
             <p>Comunicate por nuestras redes SOCIALES</p>
             <div class="links">
-                <a href="#">
+                <a href="contactanos.html">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="contactanos.html">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="contactanos.html">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>

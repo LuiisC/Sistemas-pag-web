@@ -12,6 +12,7 @@
 	<main>
 		<section>
 			<nav class="nav-home">
+				<img src="images/logo.png" alt="Nuestro LOGO" class="nav-brand">
 				<ul class="contenedor-lista">
 					<li>
 						<a class="item" href="index.html">Pagina Principal</a>
@@ -20,7 +21,7 @@
 						<a class="item" href="manuales.html">Componentes y Manuales</a>
 					</li>
 					<li>
-						<a class="item" href="acceso_arduino.html">Acceso a Interfaz</a>
+						<a class="item" href="acceso_arduino.html">Interfaz</a>
 					</li>
 					<li>
 						<a class="item" href="sobre-nosotros.html">Sobre nosotros</a>
@@ -29,68 +30,38 @@
 			</nav>		
 		</section>
 </main>
-<h1>Contáctanos</h1>
-<div>
-	<p class="antes-form">Por cualquier consulta sobre nuestros productos y/o servicios dejamos a disposicion nuestros datos.</p>
-		<p> </p>
-</div>
-<div class="datos-contacto">
-	<p><strong>Email</strong>
-		<br />
-		email_ejemplo@email.com
-	</p>
-	<p><strong>En las redes</strong>
-			<br />
-			@cuenta_de_Twitter
-			<br />
-			Cuenta_de_Facebook
-	</p>
-	<p><strong>Teléfono</strong>
-			<br />
-			(+34)&nbsp;947&nbsp;002&nbsp;963
-	</p>
-</div>
-<div>
-		<!--Corregir el envio de formulario -->
-	<form action='form/recibidos.php' method='post'>
-		<fieldset>
-			<div>
-				<div>
-					<input id="nombre" name="nombre" type="text" maxlength="100" placeholder="Nombre" required>
-						<label for="nombre">
-							<span class="texto-label">Nombre</span>
-						</label>
-				</div>
-				<div>
-					<input id="telefono" name="telefono" type="tel" maxlength="100" placeholder="+541146487245" required>
-						<label for="telefono">
-							<span class="texto-label">Teléfono</span>
-						</label>
-				</div>
-				<div>
-					<input spellcheck="false" id="email" name="email" type="email" maxlength="60" placeholder="ejemplo@email.com" required>
-						<label for="email">
-							<span class="texto-label">Email</span>
-					</label>
-				</div>
-				<div>
-					<div>
-						<textarea rows="2" id="mensaje" name="mensaje" placeholder="Escriba su mensaje" required></textarea>
-							<label for="mensaje">
-								<span class="texto-label">Mensaje</span>
-							</label>
-					</div>
-				</div>
-				<div class="caja-boton">
-					<button class="boton" type="submit" name="enviar" value="Enviar">
-						<span class="texto-label">Enviar</span>
-					</button>
-				</div>
-			</div>
-		</fieldset>	
-	</form>
-</div>
 
+<div>
+	<!-- FORMULARIO DE ENRIQUE -->
+	<section>
+        <div class="contacto">
+            <form action="correos.php" method="POST">
+                <div class="form">
+                    <h1>Contactanos</h1>
+                    <div class="grupo">
+                        <input type="text" name="nombre" id="" required><span class="barra"></span>
+                        <label>Nombre</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="email" name="email" id="" required><span class="barra"></span>
+                        <label>Email</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="text" name="asunto" id="" required><span class="barra"></span>
+                        <label>Asunto</label>
+                    </div>
+                    <div class="grupo">
+                        <textarea name="mensaje" id="" rows="3" required></textarea><span class="barra"></span>
+                        <label>Mensaje</label>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+</div>
 <footer>
 	<p>©&nbsp;2022&nbsp;Todos los derechos reservados</p>
 </footer>

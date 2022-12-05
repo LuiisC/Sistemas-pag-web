@@ -1,78 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Nombre de nuestro proyecto</title>
-		<link href="css/estilo.css" rel="stylesheet">
-		<link href="css/manuales.css" rel="stylesheet">
-	</head>
 
-	<main>
-		<section>
-			<nav class="nav-home">
-				<ul class="contenedor-lista">
-					<li>
-						<a class="item" href="index.html">Pagina Principal</a>
-					</li>
-					<li>
-						<a class="item" href="sobre-nosotros.html">Sobre nosotros</a>
-					</li>
-					<li>
-						<a class="item" href="acceso_arduino.html">Acceso a Interfaz</a>
-					</li>
-					<li>
-						<a class="item" href="contactanos.html">Contáctanos</a>
-					</li>
-				</ul>
-			</nav>		
-		</section>
-		<h1>Componentes y Manuales</h1>	
-		<h2>Componentes, click en imagen amplia</h2>
-		<section class="wrapper">
-			<div class="item-img">
-				<picture><source type="image/jpeg">
-						<img id="img1" src="images/img1.JPG" alt="Produccion de combustible" onclick="ampliar(1)">
-				</picture>
-				<div class="descrip-img">
-					<span class="titulo-imagen">Imagen 1</span>
-					<p>Descripcion de imagen 1</p>
-					<button id="1" onclick="resetImg(1)">Volver al tamaño original</button>
-				</div>
-			</div>	
-			<div class="item-img">
-				<picture><source type="image/jpeg">
-						<img id="img2" src="images/horno_3.JPG" alt="Produccion de combustible" onclick="ampliar(2)">
-				</picture>
-				<div class="descrip-img">
-					<span class="titulo-imagen">Horno</span>
-					<p>Descripcion del horno y cómo funciona</p>
-					<button id="2" onclick="resetImg(2)">Volver al tamaño original</button>
-				</div>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de nuestro proyecto</title>
+	<link href="css/estilo.css" rel="stylesheet">
+	<link href="css/manuales.css" rel="stylesheet">
+</head>
+
+<body>
+	<section>
+		<nav class="nav-home">
+			<img src="images/logo.png" alt="Nuestro LOGO" class="nav-brand">
+			<ul class="contenedor-lista">
+				<li>
+					<a class="item" href="index.html">Pagina Principal</a>
+				</li>
+				<li>
+					<a class="item" href="sobre-nosotros.html">Sobre nosotros</a>
+				</li>
+				<li>
+					<a class="item" href="acceso_arduino.html">Interfaz</a>
+				</li>
+				<li>
+					<a class="item" href="contactanos.html">Contáctanos</a>
+				</li>
+			</ul>
+		</nav>		
+	</section>
+	<h1>Componentes y Manuales</h1>	
+	<section class="wrapper">
+		<h2>Click en imagen para ampliar</h2>
+		<div class="item-img">
+			<picture><source type="image/jpeg">
+					<img id="img1" src="images/lavadora_secadora.JPG" alt="Lavadora y secadora" onclick="ampliar(1)">
+			</picture>
+			<div class="descrip-img">
+				<span class="titulo-imagen">Lavadora y Secadora</span>
+				<p>Funcion/Descripcion de la lavadora y secadora ...</p>
+				<button id="1" onclick="resetImg(1)">Volver al tamaño original</button>
 			</div>
-			<div class="item-img">
-				<picture><source type="image/jpeg">
-						<img id="img3" src="images/conex_gas.JPG" alt="Produccion de combustible" onclick="ampliar(3)">
-				</picture>
-				<div class="descrip-img">
-					<span class="titulo-imagen">Conexiones a gas</span>
-					<p>Descripcion de las conexiones</p>
-					<button id="3" onclick="resetImg(3)">Volver al tamaño original</button>
-				</div>
+		</div>
+		<div class="item-img">
+			<picture><source type="image/jpeg">
+					<img id="img2" src="images/trituradora.PNG" alt="Trituradora" onclick="ampliar(2)">
+			</picture>
+			<div class="descrip-img">
+				<span class="titulo-imagen">Trituradora</span>
+				<p>Funcion/Descripcion de la trituradora ...</p>
+				<button id="2" onclick="resetImg(2)">Volver al tamaño original</button>
 			</div>
-			<div class="item-img">
-				<picture><source type="image/jpeg">
-						<img id="img4" src="images/valvula_filtro.JPG" alt="Produccion de combustible" onclick="ampliar(4)">
-				</picture>
-				<div class="descrip-img">
-					<span class="titulo-imagen">Valvulas y filtro</span>
-					<p>Descripcion valvulas y filtro</p>
-					<button id="4" onclick="resetImg(4)">Volver al tamaño original</button>
-				</div>
+		</div>
+		<div class="item-img">
+			<picture><source type="image/jpeg">
+					<img id="img3" src="images/horno.JPG" alt="Horno" onclick="ampliar(3)">
+			</picture>
+			<div class="descrip-img">
+				<span class="titulo-imagen">Horno</span>
+				<p>Descripcion del horno................</p>
+				<button id="3" onclick="resetImg(3)">Volver al tamaño original</button>
 			</div>
-		</section>
-	</main>
+		</div>		
+		<div class="item-img">
+			<picture><source type="image/jpeg">
+					<img id="img4" src="images/separador.JPG" alt="Separador Ciclonico" onclick="ampliar(4)">
+			</picture>
+			<div class="descrip-img">
+				<span class="titulo-imagen">Separador Ciclónico</span>
+				<p>Descripcion del separador........</p>
+				<button id="4" onclick="resetImg(4)">Volver al tamaño original</button>
+			</div>
+		</div>
+		<div class="item-img">
+			<picture><source type="image/jpeg">
+					<img id="img5" src="images/intercambiador.PNG" alt="intercambiador de calor" onclick="ampliar(5)">
+			</picture>
+			<div class="descrip-img">
+				<span class="titulo-imagen">Intercambiador de Calor</span>
+				<p>Descripcion: ............................</p>
+				<button id="5" onclick="resetImg(5)">Volver al tamaño original</button>
+			</div>
+		</div>
+		<div class="item-img">
+			<picture><source type="image/jpeg">
+					<img id="img6" src="images/tanque_almacenamiento.PNG" alt="Tanque" onclick="ampliar(6)">
+			</picture>
+			<div class="descrip-img">
+				<span class="titulo-imagen">Tanque de Almacenamiento</span>
+				<p>Descripcion: ............................</p>
+				<button id="6" onclick="resetImg(6)">Volver al tamaño original</button>
+			</div>
+		</div>
+		
+	</section>
 
 	<script src="scripts/main.js"></script>
 	<footer class="pie">
