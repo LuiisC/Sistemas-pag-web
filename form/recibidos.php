@@ -4,6 +4,7 @@ $telef = $_REQUEST['telefono'];
 $mail = $_REQUEST['email'];
 $mensaje = $_REQUEST['mensaje'];
 
+//FALTA AGREGAR VALIDACIONES DEL FORMULARIO
 echo " Datos de la solicitud ";
 echo "<p>Nombre: $nombre </p>";
 echo "<p>Telefono: $telef </p>";

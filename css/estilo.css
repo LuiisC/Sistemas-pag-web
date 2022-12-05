@@ -10,11 +10,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
-
 .container {
     width: 90%;
     margin: auto;
@@ -41,7 +39,7 @@ h1 {
 }
 
 .nav-brand {
-    width: 50px;
+    width: 70px;
     margin-left: 20px;
     /*height: 70px;*/
 }
@@ -72,13 +70,13 @@ header {
     padding: 0px;
     margin: 0px;
 }
-
+/*TEXTO Bienvenidos*/
 header div span {
     display: flex;
     justify-content: center;
     padding: 0px;
     font-size: 3em;
-    color: rgba(210, 210, 218);
+    color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
@@ -99,7 +97,10 @@ header div span {
 }
 
 .parrafo-empresa {
-    font-size: 24px;
+    background-color: #4d4d4d8e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     align-items: center;
 }
@@ -118,7 +119,7 @@ li {
     /*Modifica la caja de texto */
     margin-left: 5px;
     padding: 8px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 18px;
     text-decoration: none;
@@ -134,7 +135,8 @@ li {
     margin-right: auto;
     width: fit-content;
     height: fit-content;
-    background-color: rgb(82, 201, 26);
+    border-radius: 10px;
+    background-color: #747272ad;
     padding: 0px;
 }
 
@@ -152,18 +154,19 @@ li {
 .titulo-descripcion {
     padding-top: 5px;
     font-family: Calibri, "Trebuchet MS", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
 }
 
 #d-proceso {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
 /*   SOCIAL  */
 
 .social {
+    padding-top: 100px;
     margin: 50px;
 }
 

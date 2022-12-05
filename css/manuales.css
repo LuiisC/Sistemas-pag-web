@@ -1,34 +1,42 @@
 .wrapper {
     padding-top: 20px;
-    background-color: rgba(212, 211, 211, 0.842);
+    background-color: rgba(226, 226, 226, 0.842);
 
 }
-img {
-    margin-left: 5px;
+.item-img img {
     width: 20%;
     height: 20%;
 }
 .item-img {
+    text-align: center;
     padding-top: 20px;
-    margin: 5px;
+    margin-bottom: 5px;
     border-radius: 10px;
     border: 2px outset rgb(22, 21, 21);
 }
 .descrip-img {
+    text-align: center;
     margin-left: 5px;
     padding-top: 10px;
 }
 .titulo-imagen { /* TEXTO TITULO DE LA IMAGEN   */
-    margin-left: 5px;
     padding-top: 10px;
     font-family: Georgia, Times, serif ;
     font-weight: bold;
     font-size: 18px;
 }
+h2 {
+    margin-top: 0px;
+    padding-left: 8px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .descrip-img p{ /* Texto debajo del titulo de la imagen   */
+    text-align: center;
     margin-left: 8px;
     font-family: Georgia, Times, serif ;
     font-size: 12px;
+    padding-bottom: 10px;
 }
 .contenedor {
     width: 100%;
